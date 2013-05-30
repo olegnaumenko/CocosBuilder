@@ -411,6 +411,12 @@
             if (!spriteFile) spriteFile = @"";
             serializedValue = spriteFile;
         }
+        else if ([type isEqualToString:@"AudioFile"])
+        {
+            NSString* audioFile = [extraProps objectForKey:name];
+            if (!audioFile) audioFile = @"";
+            serializedValue = audioFile;
+        }
         else
         {
             NSLog(@"WARNING Unrecognized property type: %@", type);

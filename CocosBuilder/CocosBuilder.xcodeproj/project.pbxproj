@@ -97,6 +97,25 @@
 		77E1995D13858DE0006C361B /* TabNewMetalRollover.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E1995113858DE0006C361B /* TabNewMetalRollover.png */; };
 		77E7D04B138F777A00E8EE67 /* CCBModalSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E7D04A138F777A00E8EE67 /* CCBModalSheetController.m */; };
 		77E7D04F138F78F600E8EE67 /* StageSizeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E7D04E138F78F600E8EE67 /* StageSizeWindow.m */; };
+		7CA7CDBB17578E56006F7541 /* CCBGlobalsSunwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CD9E17578E56006F7541 /* CCBGlobalsSunwork.m */; };
+		7CA7CDBC17578E56006F7541 /* CCBReaderInternal+SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDA017578E56006F7541 /* CCBReaderInternal+SunworkAdditions.m */; };
+		7CA7CDBD17578E56006F7541 /* CCBWriterInternal+SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDA217578E56006F7541 /* CCBWriterInternal+SunworkAdditions.m */; };
+		7CA7CDBF17578E56006F7541 /* CCNode+NodeInfo_SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDA617578E56006F7541 /* CCNode+NodeInfo_SunworkAdditions.m */; };
+		7CA7CDC617578E56006F7541 /* CocosBuilderAppDelegate+SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDB317578E56006F7541 /* CocosBuilderAppDelegate+SunworkAdditions.m */; };
+		7CA7CDC717578E56006F7541 /* InspectorAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDB517578E56006F7541 /* InspectorAudioFile.m */; };
+		7CA7CDC817578E56006F7541 /* InspectorAudioFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7CDB617578E56006F7541 /* InspectorAudioFile.xib */; };
+		7CA7CDC917578E56006F7541 /* ResolutionSetting+SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDB817578E56006F7541 /* ResolutionSetting+SunworkAdditions.m */; };
+		7CA7CDCA17578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDBA17578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.m */; };
+		7CA7CDD817579703006F7541 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA7CDD717579703006F7541 /* CoreFoundation.framework */; };
+		7CA7CDDE17579703006F7541 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7CDDC17579703006F7541 /* InfoPlist.strings */; };
+		7CA7CDF2175797DD006F7541 /* CCBPProperties.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7CDE8175797DD006F7541 /* CCBPProperties.plist */; };
+		7CA7CDF3175797DD006F7541 /* CCSoundNode-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7CDE9175797DD006F7541 /* CCSoundNode-Info.plist */; };
+		7CA7CDF4175797DD006F7541 /* CCSoundNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDEC175797DD006F7541 /* CCSoundNode.m */; };
+		7CA7CDF5175797DD006F7541 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7CDED175797DD006F7541 /* InfoPlist.strings */; };
+		7CA7CDF6175797DD006F7541 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7CDEF175797DD006F7541 /* Icon.png */; };
+		7CA7CDF7175797DD006F7541 /* NSImage-Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDF1175797DD006F7541 /* NSImage-Tint.m */; };
+		7CA7CDF8175797E7006F7541 /* CCSoundNode.ccbPlugNode in Copy PlugIns */ = {isa = PBXBuildFile; fileRef = 7CA7CDD617579703006F7541 /* CCSoundNode.ccbPlugNode */; };
+		7CA7CDF91757982B006F7541 /* CCBXCocos2diPhoneWriter+SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDA417578E56006F7541 /* CCBXCocos2diPhoneWriter+SunworkAdditions.m */; };
 		835DB052171561B8003A2F7B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 835DAFA7171561B7003A2F7B /* LICENSE.txt */; };
 		835DB053171561B8003A2F7B /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 835DAFA8171561B7003A2F7B /* README.markdown */; };
 		835DB083171561B8003A2F7B /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 835DB030171561B7003A2F7B /* About.txt */; };
@@ -666,6 +685,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7CA7CDE51757977E006F7541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CA7CDD517579703006F7541;
+			remoteInfo = CCSoundNode;
+		};
 		E325F66814F6611300D29BCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7789ABB5133AA82000CEFCC7 /* Project object */;
@@ -827,6 +853,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				7CA7CDF8175797E7006F7541 /* CCSoundNode.ccbPlugNode in Copy PlugIns */,
 				E3FCE874152485A20028E8E7 /* CCScrollView.ccbPlugNode in Copy PlugIns */,
 				E3C65124151BB8DF00D639C0 /* CCControl.ccbPlugNode in Copy PlugIns */,
 				E3B84C48151A2C93004B743C /* CCControlButton.ccbPlugNode in Copy PlugIns */,
@@ -989,6 +1016,39 @@
 		77E7D04A138F777A00E8EE67 /* CCBModalSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBModalSheetController.m; sourceTree = "<group>"; };
 		77E7D04D138F78F600E8EE67 /* StageSizeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageSizeWindow.h; sourceTree = "<group>"; };
 		77E7D04E138F78F600E8EE67 /* StageSizeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageSizeWindow.m; sourceTree = "<group>"; };
+		7CA7CD9D17578E56006F7541 /* CCBGlobalsSunwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBGlobalsSunwork.h; sourceTree = "<group>"; };
+		7CA7CD9E17578E56006F7541 /* CCBGlobalsSunwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBGlobalsSunwork.m; sourceTree = "<group>"; };
+		7CA7CD9F17578E56006F7541 /* CCBReaderInternal+SunworkAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCBReaderInternal+SunworkAdditions.h"; sourceTree = "<group>"; };
+		7CA7CDA017578E56006F7541 /* CCBReaderInternal+SunworkAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCBReaderInternal+SunworkAdditions.m"; sourceTree = "<group>"; };
+		7CA7CDA117578E56006F7541 /* CCBWriterInternal+SunworkAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCBWriterInternal+SunworkAdditions.h"; sourceTree = "<group>"; };
+		7CA7CDA217578E56006F7541 /* CCBWriterInternal+SunworkAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCBWriterInternal+SunworkAdditions.m"; sourceTree = "<group>"; };
+		7CA7CDA317578E56006F7541 /* CCBXCocos2diPhoneWriter+SunworkAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCBXCocos2diPhoneWriter+SunworkAdditions.h"; sourceTree = "<group>"; };
+		7CA7CDA417578E56006F7541 /* CCBXCocos2diPhoneWriter+SunworkAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCBXCocos2diPhoneWriter+SunworkAdditions.m"; sourceTree = "<group>"; };
+		7CA7CDA517578E56006F7541 /* CCNode+NodeInfo_SunworkAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+NodeInfo_SunworkAdditions.h"; sourceTree = "<group>"; };
+		7CA7CDA617578E56006F7541 /* CCNode+NodeInfo_SunworkAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+NodeInfo_SunworkAdditions.m"; sourceTree = "<group>"; };
+		7CA7CDB217578E56006F7541 /* CocosBuilderAppDelegate+SunworkAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CocosBuilderAppDelegate+SunworkAdditions.h"; sourceTree = "<group>"; };
+		7CA7CDB317578E56006F7541 /* CocosBuilderAppDelegate+SunworkAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CocosBuilderAppDelegate+SunworkAdditions.m"; sourceTree = "<group>"; };
+		7CA7CDB417578E56006F7541 /* InspectorAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectorAudioFile.h; sourceTree = "<group>"; };
+		7CA7CDB517578E56006F7541 /* InspectorAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectorAudioFile.m; sourceTree = "<group>"; };
+		7CA7CDB617578E56006F7541 /* InspectorAudioFile.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectorAudioFile.xib; sourceTree = "<group>"; };
+		7CA7CDB717578E56006F7541 /* ResolutionSetting+SunworkAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ResolutionSetting+SunworkAdditions.h"; sourceTree = "<group>"; };
+		7CA7CDB817578E56006F7541 /* ResolutionSetting+SunworkAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ResolutionSetting+SunworkAdditions.m"; sourceTree = "<group>"; };
+		7CA7CDB917578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ResourceManagerOutlineView+SunworkAdditions.h"; sourceTree = "<group>"; };
+		7CA7CDBA17578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ResourceManagerOutlineView+SunworkAdditions.m"; sourceTree = "<group>"; };
+		7CA7CDD617579703006F7541 /* CCSoundNode.ccbPlugNode */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCSoundNode.ccbPlugNode; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA7CDD717579703006F7541 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7CA7CDDB17579703006F7541 /* CCSoundNode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCSoundNode-Info.plist"; sourceTree = "<group>"; };
+		7CA7CDDD17579703006F7541 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CA7CDDF17579703006F7541 /* CCSoundNode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCSoundNode-Prefix.pch"; sourceTree = "<group>"; };
+		7CA7CDE8175797DD006F7541 /* CCBPProperties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CCBPProperties.plist; sourceTree = "<group>"; };
+		7CA7CDE9175797DD006F7541 /* CCSoundNode-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CCSoundNode-Info.plist"; sourceTree = "<group>"; };
+		7CA7CDEA175797DD006F7541 /* CCSoundNode-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCSoundNode-Prefix.pch"; sourceTree = "<group>"; };
+		7CA7CDEB175797DD006F7541 /* CCSoundNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSoundNode.h; sourceTree = "<group>"; };
+		7CA7CDEC175797DD006F7541 /* CCSoundNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSoundNode.m; sourceTree = "<group>"; };
+		7CA7CDEE175797DD006F7541 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CA7CDEF175797DD006F7541 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7CA7CDF0175797DD006F7541 /* NSImage-Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage-Tint.h"; sourceTree = "<group>"; };
+		7CA7CDF1175797DD006F7541 /* NSImage-Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage-Tint.m"; sourceTree = "<group>"; };
 		835DAF3F17156161003A2F7B /* CCBHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBHTTPServer.h; sourceTree = "<group>"; };
 		835DAF4017156161003A2F7B /* CCBHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBHTTPServer.m; sourceTree = "<group>"; };
 		835DAF81171561B7003A2F7B /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
@@ -1933,6 +1993,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7CA7CDD317579703006F7541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA7CDD817579703006F7541 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E325F65714F65C8E00D29BCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2410,6 +2478,7 @@
 				E398C01D14FB813C0078E771 /* PlugIns (Exporters) */,
 				7789ABEF133AB17100CEFCC7 /* libs */,
 				FA98CFC5154E7D1C006E58C5 /* ccbpublish */,
+				7CA7CDD917579703006F7541 /* CCSoundNode */,
 				7789ABC1133AA82000CEFCC7 /* Frameworks */,
 				7789ABBF133AA82000CEFCC7 /* Products */,
 			);
@@ -2436,6 +2505,7 @@
 				E3C65116151BB89500D639C0 /* CCControl.ccbPlugNode */,
 				E3FCE8661524856D0028E8E7 /* CCScrollView.ccbPlugNode */,
 				FA98CFC1154E7D1C006E58C5 /* ccbpublish */,
+				7CA7CDD617579703006F7541 /* CCSoundNode.ccbPlugNode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2457,6 +2527,7 @@
 				77D33E94138E714700012A88 /* ExceptionHandling.framework */,
 				7789ABC2133AA82000CEFCC7 /* Cocoa.framework */,
 				FA98CFC3154E7D1C006E58C5 /* Foundation.framework */,
+				7CA7CDD717579703006F7541 /* CoreFoundation.framework */,
 				7789ABC4133AA82000CEFCC7 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -2480,6 +2551,7 @@
 		7789ABC8133AA82000CEFCC7 /* CocosBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				7CA7CD9C17578E56006F7541 /* Sunwork_Extensions */,
 				776041E31498F5E80078095D /* AppDelegate & Cocos2D Scene */,
 				E346286C155C23100043EAB1 /* Rulers, Guides & Notes */,
 				E335CAED1576031B00A612EE /* Sequencer */,
@@ -2614,6 +2686,67 @@
 				77E1995113858DE0006C361B /* TabNewMetalRollover.png */,
 			);
 			name = res;
+			sourceTree = "<group>";
+		};
+		7CA7CD9C17578E56006F7541 /* Sunwork_Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7CA7CDE7175797DD006F7541 /* CCSoundNode */,
+				7CA7CD9D17578E56006F7541 /* CCBGlobalsSunwork.h */,
+				7CA7CD9E17578E56006F7541 /* CCBGlobalsSunwork.m */,
+				7CA7CD9F17578E56006F7541 /* CCBReaderInternal+SunworkAdditions.h */,
+				7CA7CDA017578E56006F7541 /* CCBReaderInternal+SunworkAdditions.m */,
+				7CA7CDA117578E56006F7541 /* CCBWriterInternal+SunworkAdditions.h */,
+				7CA7CDA217578E56006F7541 /* CCBWriterInternal+SunworkAdditions.m */,
+				7CA7CDA317578E56006F7541 /* CCBXCocos2diPhoneWriter+SunworkAdditions.h */,
+				7CA7CDA417578E56006F7541 /* CCBXCocos2diPhoneWriter+SunworkAdditions.m */,
+				7CA7CDA517578E56006F7541 /* CCNode+NodeInfo_SunworkAdditions.h */,
+				7CA7CDA617578E56006F7541 /* CCNode+NodeInfo_SunworkAdditions.m */,
+				7CA7CDB217578E56006F7541 /* CocosBuilderAppDelegate+SunworkAdditions.h */,
+				7CA7CDB317578E56006F7541 /* CocosBuilderAppDelegate+SunworkAdditions.m */,
+				7CA7CDB417578E56006F7541 /* InspectorAudioFile.h */,
+				7CA7CDB517578E56006F7541 /* InspectorAudioFile.m */,
+				7CA7CDB617578E56006F7541 /* InspectorAudioFile.xib */,
+				7CA7CDB717578E56006F7541 /* ResolutionSetting+SunworkAdditions.h */,
+				7CA7CDB817578E56006F7541 /* ResolutionSetting+SunworkAdditions.m */,
+				7CA7CDB917578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.h */,
+				7CA7CDBA17578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.m */,
+			);
+			path = Sunwork_Extensions;
+			sourceTree = "<group>";
+		};
+		7CA7CDD917579703006F7541 /* CCSoundNode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA7CDDA17579703006F7541 /* Supporting Files */,
+			);
+			path = CCSoundNode;
+			sourceTree = "<group>";
+		};
+		7CA7CDDA17579703006F7541 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CA7CDDB17579703006F7541 /* CCSoundNode-Info.plist */,
+				7CA7CDDC17579703006F7541 /* InfoPlist.strings */,
+				7CA7CDDF17579703006F7541 /* CCSoundNode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CA7CDE7175797DD006F7541 /* CCSoundNode */ = {
+			isa = PBXGroup;
+			children = (
+				7CA7CDE8175797DD006F7541 /* CCBPProperties.plist */,
+				7CA7CDE9175797DD006F7541 /* CCSoundNode-Info.plist */,
+				7CA7CDEA175797DD006F7541 /* CCSoundNode-Prefix.pch */,
+				7CA7CDEB175797DD006F7541 /* CCSoundNode.h */,
+				7CA7CDEC175797DD006F7541 /* CCSoundNode.m */,
+				7CA7CDED175797DD006F7541 /* InfoPlist.strings */,
+				7CA7CDEF175797DD006F7541 /* Icon.png */,
+				7CA7CDF0175797DD006F7541 /* NSImage-Tint.h */,
+				7CA7CDF1175797DD006F7541 /* NSImage-Tint.m */,
+			);
+			path = CCSoundNode;
 			sourceTree = "<group>";
 		};
 		835DAF7E171561B7003A2F7B /* CocoaHTTPServer */ = {
@@ -4114,11 +4247,29 @@
 				E3C65123151BB8CD00D639C0 /* PBXTargetDependency */,
 				E3B84C47151A2C89004B743C /* PBXTargetDependency */,
 				E3FCE8731524859A0028E8E7 /* PBXTargetDependency */,
+				7CA7CDE61757977E006F7541 /* PBXTargetDependency */,
 			);
 			name = CocosBuilder;
 			productName = ccBuilder;
 			productReference = 7789ABBE133AA82000CEFCC7 /* CocosBuilder.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7CA7CDD517579703006F7541 /* CCSoundNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA7CDE417579703006F7541 /* Build configuration list for PBXNativeTarget "CCSoundNode" */;
+			buildPhases = (
+				7CA7CDD217579703006F7541 /* Sources */,
+				7CA7CDD317579703006F7541 /* Frameworks */,
+				7CA7CDD417579703006F7541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCSoundNode;
+			productName = CCSoundNode;
+			productReference = 7CA7CDD617579703006F7541 /* CCSoundNode.ccbPlugNode */;
+			productType = "com.apple.product-type.bundle";
 		};
 		E325F65914F65C8E00D29BCF /* CCMenuItemImage */ = {
 			isa = PBXNativeTarget;
@@ -4453,6 +4604,7 @@
 				E3FCE8651524856D0028E8E7 /* CCScrollView */,
 				7789ABBD133AA82000CEFCC7 /* CocosBuilder */,
 				FA98CFC0154E7D1C006E58C5 /* ccbpublish */,
+				7CA7CDD517579703006F7541 /* CCSoundNode */,
 			);
 		};
 /* End PBXProject section */
@@ -4714,6 +4866,19 @@
 				E388FD19171F03C7002548ED /* editor-border.png in Resources */,
 				E3748303171F83A300486659 /* editor-jump.png in Resources */,
 				E39C917B174C134C00092BD1 /* toolbar-btn-add.png in Resources */,
+				7CA7CDC817578E56006F7541 /* InspectorAudioFile.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA7CDD417579703006F7541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA7CDDE17579703006F7541 /* InfoPlist.strings in Resources */,
+				7CA7CDF2175797DD006F7541 /* CCBPProperties.plist in Resources */,
+				7CA7CDF3175797DD006F7541 /* CCSoundNode-Info.plist in Resources */,
+				7CA7CDF5175797DD006F7541 /* InfoPlist.strings in Resources */,
+				7CA7CDF6175797DD006F7541 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5216,6 +5381,23 @@
 				E38654B0171771DA00A345B9 /* JavaScriptVariableExtractor.m in Sources */,
 				E373BF0D17188FC000D71602 /* JavaScriptAutoCompleteHandler.m in Sources */,
 				E3C12B1B171DD386001EEDDB /* NSWindow+CCBAccessoryView.m in Sources */,
+				7CA7CDBB17578E56006F7541 /* CCBGlobalsSunwork.m in Sources */,
+				7CA7CDBC17578E56006F7541 /* CCBReaderInternal+SunworkAdditions.m in Sources */,
+				7CA7CDBD17578E56006F7541 /* CCBWriterInternal+SunworkAdditions.m in Sources */,
+				7CA7CDBF17578E56006F7541 /* CCNode+NodeInfo_SunworkAdditions.m in Sources */,
+				7CA7CDC617578E56006F7541 /* CocosBuilderAppDelegate+SunworkAdditions.m in Sources */,
+				7CA7CDC717578E56006F7541 /* InspectorAudioFile.m in Sources */,
+				7CA7CDC917578E56006F7541 /* ResolutionSetting+SunworkAdditions.m in Sources */,
+				7CA7CDCA17578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA7CDD217579703006F7541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA7CDF4175797DD006F7541 /* CCSoundNode.m in Sources */,
+				7CA7CDF7175797DD006F7541 /* NSImage-Tint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5292,6 +5474,7 @@
 			files = (
 				E398C03B14FB8F850078E771 /* CCBXCocos2diPhone.m in Sources */,
 				E3F2C21314FC157E007B660D /* CCBXCocos2diPhoneWriter.m in Sources */,
+				7CA7CDF91757982B006F7541 /* CCBXCocos2diPhoneWriter+SunworkAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5352,6 +5535,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7CA7CDE61757977E006F7541 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CA7CDD517579703006F7541 /* CCSoundNode */;
+			targetProxy = 7CA7CDE51757977E006F7541 /* PBXContainerItemProxy */;
+		};
 		E325F66914F6611300D29BCF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E325F65914F65C8E00D29BCF /* CCMenuItemImage */;
@@ -5462,6 +5650,22 @@
 				7789ABD8133AA82000CEFCC7 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7CA7CDDC17579703006F7541 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA7CDDD17579703006F7541 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CA7CDED175797DD006F7541 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CA7CDEE175797DD006F7541 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		E325F65F14F65C8F00D29BCF /* InfoPlist.strings */ = {
@@ -5700,6 +5904,74 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = CocosBuilder;
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7CA7CDE017579703006F7541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCSoundNode/CCSoundNode-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "CCSoundNode/CCSoundNode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
+			};
+			name = Debug;
+		};
+		7CA7CDE117579703006F7541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCSoundNode/CCSoundNode-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "CCSoundNode/CCSoundNode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = ccbPlugNode;
 			};
 			name = Release;
 		};
@@ -6572,6 +6844,15 @@
 			buildConfigurations = (
 				7789ABDD133AA82000CEFCC7 /* Debug */,
 				7789ABDE133AA82000CEFCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA7CDE417579703006F7541 /* Build configuration list for PBXNativeTarget "CCSoundNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA7CDE017579703006F7541 /* Debug */,
+				7CA7CDE117579703006F7541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

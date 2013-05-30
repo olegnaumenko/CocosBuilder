@@ -173,7 +173,7 @@ enum {
     
     // Resource manager
     ResourceManager* resManager;
-    //ResourceManagerPanel* resManagerPanel;
+    ResourceManagerPanel* resManagerPanel;
     
     // Project
     ProjectSettings* projectSettings;
