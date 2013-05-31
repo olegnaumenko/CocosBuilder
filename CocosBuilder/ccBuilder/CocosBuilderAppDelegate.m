@@ -1263,7 +1263,7 @@ static BOOL hideAllToNextSeparator;
     
     [[JavaScriptAutoCompleteHandler sharedAutoCompleteHandler] removeLocalFiles];
     
-    [window setTitle:@"CocosBuilder"];
+    [window setTitle:@"Active CocosBuilder"];
 
     // Stop local web server
     [[CCBHTTPServer sharedHTTPServer] stop];
@@ -1312,7 +1312,7 @@ static BOOL hideAllToNextSeparator;
     }
     
     // Update the title of the main window
-    [window setTitle:[NSString stringWithFormat:@"CocosBuilder - %@", [fileName lastPathComponent]]];
+    [window setTitle:[NSString stringWithFormat:@"Active CocosBuilder - %@", [fileName lastPathComponent]]];
 
     // Start local web server
     NSString* docRoot = [projectSettings.publishDirectoryHTML5 absolutePathFromBaseDirPath:[projectSettings.projectPath stringByDeletingLastPathComponent]];
