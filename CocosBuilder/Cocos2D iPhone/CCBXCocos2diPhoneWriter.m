@@ -401,7 +401,9 @@
     }
     else if ([type isEqualToString:@"Texture"]
              || [type isEqualToString:@"FntFile"]
-             || [type isEqualToString:@"CCBFile"])
+             || [type isEqualToString:@"CCBFile"]
+             || [type isEqualToString:@"AudioFile"]//on
+             )
     {
         [self writeCachedString:prop isPath: YES];
     }
@@ -578,7 +580,9 @@
         }
         else if ([type isEqualToString:@"FntFile"]
                  || [type isEqualToString:@"Texture"]
-                 || [type isEqualToString:@"CCBFile"])
+                 || [type isEqualToString:@"CCBFile"]
+                 || [type isEqualToString:@"AudioFile"]//on
+                 )
         {
             [self addToStringCache:value isPath:YES];
         }
