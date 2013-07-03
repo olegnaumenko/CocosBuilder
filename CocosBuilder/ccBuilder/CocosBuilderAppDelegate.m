@@ -1968,6 +1968,7 @@ static BOOL hideAllToNextSeparator;
                 {
                     [seq.soundChannel.seqNodeProp setKeyframe:keyframe];
                 }
+                [keyframe.parent deleteKeyframesAfterTime:seq.timelineLength];//on from upstream github
                 [[SequencerHandler sharedHandler] redrawTimeline];
             }
         }
