@@ -90,6 +90,67 @@
 
 @implementation CocosBuilderAppDelegate (CocosBuilderAppDelegate_SunworkAdditions)
 
+- (void) switchToDocument:(CCBDocument*) document forceReload:(BOOL)forceReload
+{
+    if (!forceReload && [document.fileName isEqualToString:currentDocument.fileName]) return;
+    
+    [self prepareForDocumentSwitch];
+    
+    self.currentDocument = document;
+    
+    NSMutableDictionary* doc = document.docData;
+    
+    [self replaceDocumentData:doc];
+    
+    [self updateResolutionMenu];
+    [self updateTimelineMenu];
+    [self updateStateOriginCenteredMenu];
+    
+    CocosScene* cs = [CocosScene cocosScene];
+    //[cs setStageZoom:document.stageZoom];//on no zoom change when switching between documents
+    [cs setScrollOffset:document.stageScrollOffset];
+}
+
+- (void) openFile:(NSString*) fileName
+{
+	[[[CCDirector sharedDirector] view] lockOpenGLContext];
+    
+    // Check if file is already open
+    CCBDocument* openDoc = [self findDocumentFromFile:fileName];
+    if (openDoc)
+    {
+        [tabView selectTabViewItem:[self tabViewItemFromDoc:openDoc]];
+        return;
+    }
+    
+    [self prepareForDocumentSwitch];
+    
+    NSMutableDictionary* doc = [NSMutableDictionary dictionaryWithContentsOfFile:fileName];
+    
+    CCBDocument* newDoc = [[[CCBDocument alloc] init] autorelease];
+    newDoc.fileName = fileName;
+    newDoc.docData = doc;
+    newDoc.exportPath = [doc objectForKey:@"exportPath"];
+    newDoc.exportPlugIn = [doc objectForKey:@"exportPlugIn"];
+    newDoc.exportFlattenPaths = [[doc objectForKey:@"exportFlattenPaths"] boolValue];
+    
+    [self switchToDocument:newDoc];
+    
+    [self addDocument:newDoc];
+    self.hasOpenedDocument = YES;
+    
+    [self checkForTooManyDirectoriesInCurrentDoc];
+    
+    // Remove selections
+    [self setSelectedNodes:NULL];
+    
+    // Make sure timeline is up to date
+    [sequenceHandler updatePropertiesToTimelinePosition];
+    
+    [self playbackJumpToStart:nil];//on
+	[[[CCDirector sharedDirector] view] unlockOpenGLContext];
+}
+
 - (IBAction)menuShowResourceInFinder :(id)sender
 {
     NSUInteger selectedRow = [sender tag];
@@ -189,7 +250,6 @@
     currentDocument.sequences = sequences;
     sequenceHandler.currentSequence = seq;
     
-    
     self.hasOpenedDocument = YES;
     
     [self updateStateOriginCenteredMenu];
@@ -259,10 +319,21 @@
     [resItem setKeyEquivalentModifierMask:NSCommandKeyMask];
     [[windowItem submenu]addItem:resItem];
     
+    NSMenuItem * animItem = [mainMenu itemWithTitle:@"Animation"];
+    NSMenuItem * togglePlayItem = [[NSMenuItem alloc]initWithTitle:@"Toggle Play" action:@selector(togglePlay:) keyEquivalent:@" "];
+    [togglePlayItem setKeyEquivalentModifierMask:0];
+    [[animItem submenu]addItem:togglePlayItem];
+    
     NSMenuItem * createScenesFromResItem = [[NSMenuItem alloc]initWithTitle:@"To Scenes..." action:@selector(menuCreateNewSceneFromImage:) keyEquivalent:@""];
     [menuContextResManager addItem:createScenesFromResItem];
     
     [self checkForLastOpenedProject];
+}
+
+- (void) togglePlay:(id) sender
+{
+    if(playingBack) [self playbackStop:sender];
+    else [self playbackPlay:sender];
 }
 
 - (void) checkForLastOpenedProject
