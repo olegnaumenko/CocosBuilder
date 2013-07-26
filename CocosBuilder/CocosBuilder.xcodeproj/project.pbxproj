@@ -5871,7 +5871,7 @@
 					"\"$(SRCROOT)/libs/MMMarkdown\"",
 					"\"$(SRCROOT)/libs/Tupac\"",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = CocosBuilder;
 				WRAPPER_EXTENSION = app;
 			};
@@ -5907,7 +5907,7 @@
 					"\"$(SRCROOT)/libs/MMMarkdown\"",
 					"\"$(SRCROOT)/libs/Tupac\"",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = CocosBuilder;
 				WRAPPER_EXTENSION = app;
 			};
