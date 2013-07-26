@@ -27,7 +27,7 @@
 
 @implementation CCSoundNode
 
-@synthesize soundFile, duration, playing=_playing;
+@synthesize text, soundFile, duration, playing=_playing;
 
 - (id) init
 {

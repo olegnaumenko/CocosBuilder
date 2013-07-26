@@ -33,6 +33,7 @@
     ALuint effect;
     float duration;
     NSString * soundFile;
+    NSString * text;
     CDSoundSource * source;
     NSImage * imgInterpolPlay;
     NSImage * imgInterpolWave;
@@ -41,5 +42,6 @@
 @property (nonatomic, readwrite, assign) BOOL playing;
 @property (nonatomic, assign) float duration;
 @property (nonatomic, retain) NSString * soundFile;
+@property (nonatomic, retain) NSString * text;
 
 @end

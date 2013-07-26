@@ -97,6 +97,7 @@
 		77E1995D13858DE0006C361B /* TabNewMetalRollover.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E1995113858DE0006C361B /* TabNewMetalRollover.png */; };
 		77E7D04B138F777A00E8EE67 /* CCBModalSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E7D04A138F777A00E8EE67 /* CCBModalSheetController.m */; };
 		77E7D04F138F78F600E8EE67 /* StageSizeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E7D04E138F78F600E8EE67 /* StageSizeWindow.m */; };
+		7C9B779B17A2755600F979DB /* InspectorCustom+SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9B779A17A2755600F979DB /* InspectorCustom+SunworkAdditions.m */; };
 		7CA7CDBB17578E56006F7541 /* CCBGlobalsSunwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CD9E17578E56006F7541 /* CCBGlobalsSunwork.m */; };
 		7CA7CDBC17578E56006F7541 /* CCBReaderInternal+SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDA017578E56006F7541 /* CCBReaderInternal+SunworkAdditions.m */; };
 		7CA7CDBD17578E56006F7541 /* CCBWriterInternal+SunworkAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA7CDA217578E56006F7541 /* CCBWriterInternal+SunworkAdditions.m */; };
@@ -1016,6 +1017,8 @@
 		77E7D04A138F777A00E8EE67 /* CCBModalSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBModalSheetController.m; sourceTree = "<group>"; };
 		77E7D04D138F78F600E8EE67 /* StageSizeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageSizeWindow.h; sourceTree = "<group>"; };
 		77E7D04E138F78F600E8EE67 /* StageSizeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageSizeWindow.m; sourceTree = "<group>"; };
+		7C9B779917A2755600F979DB /* InspectorCustom+SunworkAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "InspectorCustom+SunworkAdditions.h"; sourceTree = "<group>"; };
+		7C9B779A17A2755600F979DB /* InspectorCustom+SunworkAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "InspectorCustom+SunworkAdditions.m"; sourceTree = "<group>"; };
 		7CA7CD9D17578E56006F7541 /* CCBGlobalsSunwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBGlobalsSunwork.h; sourceTree = "<group>"; };
 		7CA7CD9E17578E56006F7541 /* CCBGlobalsSunwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBGlobalsSunwork.m; sourceTree = "<group>"; };
 		7CA7CD9F17578E56006F7541 /* CCBReaderInternal+SunworkAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCBReaderInternal+SunworkAdditions.h"; sourceTree = "<group>"; };
@@ -2704,13 +2707,15 @@
 				7CA7CDA617578E56006F7541 /* CCNode+NodeInfo_SunworkAdditions.m */,
 				7CA7CDB217578E56006F7541 /* CocosBuilderAppDelegate+SunworkAdditions.h */,
 				7CA7CDB317578E56006F7541 /* CocosBuilderAppDelegate+SunworkAdditions.m */,
-				7CA7CDB417578E56006F7541 /* InspectorAudioFile.h */,
-				7CA7CDB517578E56006F7541 /* InspectorAudioFile.m */,
-				7CA7CDB617578E56006F7541 /* InspectorAudioFile.xib */,
 				7CA7CDB717578E56006F7541 /* ResolutionSetting+SunworkAdditions.h */,
 				7CA7CDB817578E56006F7541 /* ResolutionSetting+SunworkAdditions.m */,
 				7CA7CDB917578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.h */,
 				7CA7CDBA17578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.m */,
+				7C9B779917A2755600F979DB /* InspectorCustom+SunworkAdditions.h */,
+				7C9B779A17A2755600F979DB /* InspectorCustom+SunworkAdditions.m */,
+				7CA7CDB417578E56006F7541 /* InspectorAudioFile.h */,
+				7CA7CDB517578E56006F7541 /* InspectorAudioFile.m */,
+				7CA7CDB617578E56006F7541 /* InspectorAudioFile.xib */,
 			);
 			path = Sunwork_Extensions;
 			sourceTree = "<group>";
@@ -5389,6 +5394,7 @@
 				7CA7CDC717578E56006F7541 /* InspectorAudioFile.m in Sources */,
 				7CA7CDC917578E56006F7541 /* ResolutionSetting+SunworkAdditions.m in Sources */,
 				7CA7CDCA17578E56006F7541 /* ResourceManagerOutlineView+SunworkAdditions.m in Sources */,
+				7C9B779B17A2755600F979DB /* InspectorCustom+SunworkAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

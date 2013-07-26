@@ -155,6 +155,18 @@
 			<key>animatable</key>
 			<true/>
 		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>displayName</key>
+			<string>Text</string>
+			<key>type</key>
+			<string>Text</string>
+			<key>name</key>
+			<string>text</string>
+			<key>animatable</key>
+			<false/>
+		</dict>
 	</array>
 </dict>
 </plist>
